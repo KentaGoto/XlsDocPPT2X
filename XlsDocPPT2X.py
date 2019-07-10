@@ -105,9 +105,6 @@ def xls2xlsx(xls_fullpath):
     return dirname + '/' + fname + '.xlsx'
 
 if __name__ == '__main__':
-    print('指定したディレクトリの末尾に__copyとついたディレクトリが同じ場所に作成され、その中に変換後のファイルが入ります。')
-    print('※フォルダ名とファイル名の空白はアンスコに置換されます。')
-    print('')
     root_dir = input("Dir: ")
     root_dir_copy = root_dir + '__copy'
     shutil.copytree(root_dir, root_dir_copy)
@@ -138,6 +135,6 @@ if __name__ == '__main__':
     print('')
     # フォルダ/ファイルに空白があった場合
     if spc_flag > 0:
-        print('フォルダ/ファイルに空白があったため、アンスコに置換しました。')
+        print('Because there was a space in the folder / file, it was replaced with underscores.')
     
     print('Done!')
