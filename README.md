@@ -5,4 +5,3 @@
   
 **Synopsys**  
 A directory with __copy attached at the end of the specified directory is created in the same location, and the converted file is placed in it.  
-Spaces in folder names and file names are replaced with underscores.
