@@ -8,3 +8,6 @@ https://github.com/KentaGoto/XlsDocPPT2X_parallel
 - Windows 10  
 - Python 3.6.2 or more  
 - PowerPoint, Word, Excel \*32bit
+
+## License
+MIT
