@@ -11,3 +11,6 @@ https://github.com/KentaGoto/XlsDocPPT2X_parallel
 
 ## License
 MIT
+
+## Author  
+Kenta Goto
